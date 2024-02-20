@@ -1,10 +1,10 @@
-package main
+package welcome
 
 import (
 	"fmt"
 	"math"
 )
 
-func main() {
+func Imports() {
 	fmt.Printf("Now you have %g problems. \n", math.Sqrt(7))
 }

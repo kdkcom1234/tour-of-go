@@ -1,11 +1,11 @@
-package main
+package welcome
 
 import (
 	"fmt"
 	"time"
 )
 
-func main() {
+func Sandbox() {
 	fmt.Println("Welcome to the playground!")
 	fmt.Println("The time is", time.Now())
 }

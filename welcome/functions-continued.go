@@ -1,11 +1,11 @@
-package main
+package welcome
 
 import "fmt"
 
-func add(x, y int) int {
+func addSameType(x, y int) int {
 	return x + y
 }
 
-func main() {
-	fmt.Println(add(42, 13))
+func FunctionsContinued() {
+	fmt.Println(addSameType(42, 13))
 }
