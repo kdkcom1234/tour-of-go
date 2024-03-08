@@ -2,5 +2,5 @@
 https://gophercoding.com/reduce-go-binary-size/
 
 ```shell
-go build -ldflags="-s -w" hello.go
+go build -ldflags="-s -w"
 ```
